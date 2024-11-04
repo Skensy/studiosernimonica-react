@@ -10,7 +10,7 @@ function Navbar() {
 
   return (
     <>
-      <nav className="flex justify-center items-center flex-wrap justify-around">
+      <nav className="flex justify-center items-center flex-wrap justify-around absolute z-10 w-full">
         <div className="flex items-center w-auto justify-between">
           <a href="#">
             <img
@@ -19,7 +19,7 @@ function Navbar() {
               alt="logo-studio-serni-monica"
             />
           </a>
-          <a href="#" className="no-underline">
+          <a href="#" className="no-underline sm:hidden md:block">
             <h1 className="text-2xl">STUDIO SERNI MONICA</h1>
           </a>
         </div>

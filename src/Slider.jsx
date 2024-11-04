@@ -1,12 +1,11 @@
 import sliderFoto from "./assets/slider-foto.avif";
 
-function Slider() {
-  const img = sliderFoto;
 
+function Slider() {
   return (
     <>
-    <div className="">
-      <div className="w-full h-96 w-auto flex items-center bg-gradient-to-r from-cyan-500 to-blue-500 justify-center mt-4">
+    <div className="w-full relative z-0">
+      <div className="h-dvh flex items-center bg-gradient-to-r from-cyan-500 to-blue-500 justify-center">
         <div>
           <div className="text-4xl text-white">SERNI MONICA</div>
           <div className="text-white">consulente del lavoro</div>
