@@ -27,23 +27,23 @@ function Navbar() {
           <Menu>
             <MenuButton className="w-36">MENU</MenuButton>
             <MenuItems anchor="bottom" className="w-36">
-              <MenuItem>
-                <a className="block data-[focus]:bg-blue-100 bg-white" href="/settings">
+              <MenuItem className="content-center">
+                <a className="block data-[focus]:bg-blue-100 bg-white text-center h-12" href="/settings">
                   Home
                 </a>
               </MenuItem>
-              <MenuItem>
-                <a className="block data-[focus]:bg-blue-100 bg-white" href="/support">
+              <MenuItem className="content-center">
+                <a className="block data-[focus]:bg-blue-100 bg-white text-center h-12" href="/support">
                   Contatti
                 </a>
               </MenuItem>
-              <MenuItem>
-                <a className="block data-[focus]:bg-blue-100 bg-white" href="/license">
+              <MenuItem className="content-center">
+                <a className="block data-[focus]:bg-blue-100 bg-white text-center h-12" href="/license">
                   Servizi
                 </a>
               </MenuItem>
-              <MenuItem>
-                <a className="block data-[focus]:bg-blue-100 bg-white" href="#">
+              <MenuItem className="content-center">
+                <a className="block data-[focus]:bg-blue-100 bg-white text-center h-12" href="#">
                   FAQ
                 </a>
               </MenuItem>
