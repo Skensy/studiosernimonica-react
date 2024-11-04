@@ -9,12 +9,12 @@ function Navbar() {
 
   return (
     <>
-      <nav className='flex justify-center items-center flex-wrap'>
-        <div className='flex justify-center items-center w-auto mr-32'>
+      <nav className='flex justify-center items-center flex-wrap justify-around'>
+        <div className='flex items-center w-auto justify-between'>
           <a href="#"><img className='h-36 min-w-min ' src={logo} alt="logo-studio-serni-monica" /></a>
           <a href="#" className='no-underline'><h1 className='text-2xl'>STUDIO SERNI MONICA</h1></a>
         </div>
-        <ul className='flex gap-8'>
+        <ul className='flex gap-8 text-lg justify-center'>
           <a href="#"><li>Home</li></a>
           <a href="#"><li>Contatti</li></a>
           <a href="#"><li>Servizi</li></a>
