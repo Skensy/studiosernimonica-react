@@ -9,13 +9,16 @@ function Navbar() {
 
   return (
     <>
-      <nav>
-        <img className='h-36' src={logo} alt="logo-studio-serni-monica" />
-        <ul>
-          <li>Home</li>
-          <li>About Us</li>
-          <li>Contacts</li>
-          <li>Help Me</li>
+      <nav className='flex justify-center items-center flex-wrap'>
+        <div className='flex justify-center items-center w-auto mr-32'>
+          <a href="#"><img className='h-36 min-w-min ' src={logo} alt="logo-studio-serni-monica" /></a>
+          <a href="#" className='no-underline'><h1 className='text-2xl'>STUDIO SERNI MONICA</h1></a>
+        </div>
+        <ul className='flex gap-8'>
+          <a href="#"><li>Home</li></a>
+          <a href="#"><li>Contatti</li></a>
+          <a href="#"><li>Servizi</li></a>
+          <a href="#"><li>FAQ</li></a>
         </ul>
       </nav>
     </>
