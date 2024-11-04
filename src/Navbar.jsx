@@ -20,7 +20,7 @@ function Navbar() {
             />
           </a>
           <a href="#" className="no-underline sm:hidden md:block">
-            <h1 className="text-2xl">STUDIO SERNI MONICA</h1>
+            <h1 className="text-2xl text-white">STUDIO SERNI MONICA</h1>
           </a>
         </div>
         <div>
@@ -28,17 +28,17 @@ function Navbar() {
             <MenuButton className="w-36">MENU</MenuButton>
             <MenuItems anchor="bottom" className="w-36">
               <MenuItem className="content-center">
-                <a className="block data-[focus]:bg-blue-100 bg-white text-center h-12" href="/settings">
+                <a className="block data-[focus]:bg-blue-100 bg-white text-center h-12" href="#">
                   Home
                 </a>
               </MenuItem>
               <MenuItem className="content-center">
-                <a className="block data-[focus]:bg-blue-100 bg-white text-center h-12" href="/support">
+                <a className="block data-[focus]:bg-blue-100 bg-white text-center h-12" href="#">
                   Contatti
                 </a>
               </MenuItem>
               <MenuItem className="content-center">
-                <a className="block data-[focus]:bg-blue-100 bg-white text-center h-12" href="/license">
+                <a className="block data-[focus]:bg-blue-100 bg-white text-center h-12" href="#">
                   Servizi
                 </a>
               </MenuItem>
