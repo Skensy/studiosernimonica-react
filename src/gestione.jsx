@@ -1,6 +1,7 @@
-import { StrictMode } from "react";
+import { createElement, StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import "./index.css";
+import "./Navbar.css"
 import Navbar from "./Navbar.jsx";
 import Slider from "./Slider.jsx";
 import Midcontent from "./Midcontent.jsx";
@@ -16,7 +17,7 @@ import Cards from "./CardLists.jsx";
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <Navbar />
-    <Slider title="GESTIONE PAGHE E CONTRIBUTI" subtitle="consulente del lavoro" gradient="bg-gradient-to-r from-sky-600 to-teal-700" />
+    <Slider title="GESTIONE DELLE RISORSE UMANE" subtitle="consulente del lavoro" gradient="bg-gradient-to-r from-violet-500 to-purple-500" />
     <Midcontent />
     <Cards />
   </StrictMode>

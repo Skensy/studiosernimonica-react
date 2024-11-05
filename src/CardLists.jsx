@@ -8,7 +8,10 @@ import Gestione from "./assets/gestione-delle-risorse-umane.avif";
 function Cards() {
   return (
     <>
-      <div className="mt-12 flex justify-around flex-wrap gap-4 mb-12">
+      <div>
+        <h2 className="font-semibold text-4xl">SCOPRI I MIEI SERVIZI</h2>
+      </div>
+      <div className="mt-16 flex justify-around flex-wrap gap-4 mb-12">
         <Card
           Title="Gestione Paghe e Contributi"
           Description=""
@@ -28,12 +31,14 @@ function Cards() {
           Description=""
           imgUrl={Assistenza}
           Gradient="bg-gradient-to-r from-slate-900 to-slate-700"
+          Url="/assistenza-fiscale-in-ambito-lavorativo-1.html"
         />
         <Card
-          Title="Gestione delle Risorse Umane"
+          Title="Gestione delle Risorse mane"
           Description=""
           imgUrl={Gestione}
           Gradient="bg-gradient-to-r from-violet-500 to-purple-500"
+          Url="/gestione-delle-risorse-umane.html"
         />
       </div>
     </>
