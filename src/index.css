@@ -54,6 +54,14 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+p {
+  font-size: large;
+}
+
+li {
+  font-size: large;
+}
+
 a {
   font-weight: 500;
   text-decoration: inherit;
