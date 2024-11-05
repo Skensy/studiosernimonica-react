@@ -8,7 +8,7 @@ function Card(props) {
 
   return (
     <>
-        <a href="">
+        <a href="" className="hover:shadow-xl">
           <div className="bg-gray-800 w-80 rounded-lg">
             <img className="w-max rounded-t-lg" src={props.imgUrl} alt="" />
             <div className="p-6">
