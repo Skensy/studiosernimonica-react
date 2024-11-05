@@ -14,7 +14,7 @@ import Gestione from "./assets/gestione-delle-risorse-umane.avif"
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <Navbar />
-    <Slider title="STUDIO SERNI MONICA" subtitle="consulente del lavoro" />
+    <Slider title="STUDIO SERNI MONICA" subtitle="consulente del lavoro" gradient="bg-gradient-to-r from-purple-500 to-purple-900" />
     <Midcontent />
     <div className="mt-12 flex justify-around flex-wrap gap-4 mb-12">
       <Card Title="Gestione Paghe e Contributi" Description="" imgUrl={Paghe} Gradient="bg-gradient-to-r from-sky-600 to-teal-700" Url="/gestione-paghe-e-contributi-2.html" />
