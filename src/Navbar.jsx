@@ -20,7 +20,7 @@ function Navbar() {
             />
           </a>
           <a href="#" className="no-underline sm:hidden md:block">
-            <h1 className="text-2xl text-white">STUDIO SERNI MONICA</h1>
+            <h1 className="text-2xl text-white font-light">STUDIO SERNI MONICA</h1>
           </a>
         </div>
         <div>
