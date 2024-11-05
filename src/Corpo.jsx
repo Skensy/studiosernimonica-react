@@ -12,8 +12,7 @@ import Gestione from "./assets/gestione-delle-risorse-umane.avif";
 import Cards from "./CardLists.jsx";
 
 function Corpo() {
-
-    const riga = "h-1 bg-black my-10 w-44";
+  const riga = "h-1 bg-black my-10 w-44";
 
   return (
     <>
@@ -25,7 +24,7 @@ function Corpo() {
           contratto collettivo nazionale del lavoro (CCNL).
         </h2>
         <div className={riga}></div>
-        <h2 class="uppercase text-3xl mb-12">
+        <h2 class="uppercase text-4xl mb-12">
           <strong>ELABORAZIONE BUSTE PAGA PRECISA E PUNTUALE</strong>
         </h2>
         <p>
@@ -41,7 +40,7 @@ function Corpo() {
           Garantiamo che i tuoi dipendenti ricevano remunerazioni precise e
           puntuali.
         </p>
-        <h2 class="uppercase text-3xl mb-12 mt-12">
+        <h2 class="uppercase text-4xl mb-12 mt-12">
           <strong>
             Supporto Completo per le Relazioni con gli Enti Previdenziali
           </strong>
@@ -57,11 +56,13 @@ function Corpo() {
           garantendo la conformit&agrave; di tutte le tue pratiche.
         </p>
         <div className={riga}></div>
-        <h2 class="uppercase text-3xl font-bold mb-12 mt-12">
+      </div>
+      <div className="bg-gradient-to-t from-slate-200 to-slate-300 sm:px-8 md:px-24 lg:px-24 xl:px-48 2xl:px-56 px-6 py-12 text-left">
+        <h2 class="uppercase text-4xl font-bold mb-12 mt-12">
           Perch&eacute; Scegliere Studio Serni Monica?
         </h2>
         <div>
-          <div className="mb-6 text-xl">
+          <div className="mb-6 text-lg">
             <h3>
               <strong>Professionalit&agrave; ed Esperienza</strong>
             </h3>
@@ -70,13 +71,13 @@ function Corpo() {
               settore della consulenza del lavoro.
             </p>
           </div>
-          <div className="mb-6 text-xl">
+          <div className="mb-6 text-lg">
             <h3>
               <strong>Personalizzazione del Servizio</strong>
             </h3>
             <p>Adattiamo le nostre soluzioni alle tue esigenze specifiche.</p>
           </div>
-          <div className="mb-6 text-xl">
+          <div className="mb-6 text-lg">
             <h3>
               <strong>Aggiornamento Continuo</strong>
             </h3>
@@ -85,7 +86,7 @@ function Corpo() {
               garantirti l'adeguamento alle ultime normative.
             </p>
           </div>
-          <div className="mb-6 text-xl">
+          <div className="mb-6 text-lg">
             <h3>
               <strong>Tecnologia Avanzata</strong>
             </h3>

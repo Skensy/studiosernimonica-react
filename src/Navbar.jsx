@@ -33,7 +33,7 @@ function Navbar() {
                 </a>
               </MenuItem>
               <MenuItem className="content-center">
-                <a className="block data-[focus]:bg-blue-100 bg-white text-center h-12" href="#">
+                <a className="block data-[focus]:bg-blue-100 bg-white text-center h-12" href="/contatti.html">
                   Contatti
                 </a>
               </MenuItem>
