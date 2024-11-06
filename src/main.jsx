@@ -15,7 +15,7 @@ import Cards from "./CardLists.jsx";
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <Navbar />
-    <Slider title="STUDIO SERNI MONICA" subtitle="consulente del lavoro" gradient="bg-gradient-to-r from-purple-500 to-purple-900" />
+    <Slider title="STUDIO SERNI MONICA" subtitle="consulente del lavoro" gradient="" imgUrl="./src/assets/slider-foto.avif" />
     <Midcontent />
     <Cards />
   </StrictMode>

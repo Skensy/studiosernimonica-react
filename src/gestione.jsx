@@ -17,7 +17,7 @@ import Cards from "./CardLists.jsx";
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <Navbar />
-    <Slider title="GESTIONE DELLE RISORSE UMANE" subtitle="consulente del lavoro" gradient="bg-gradient-to-r from-violet-500 to-purple-500" />
+    <Slider title="GESTIONE DELLE RISORSE UMANE" subtitle="consulente del lavoro" imgUrl = {Gestione} />
     <Midcontent />
     <Cards />
   </StrictMode>

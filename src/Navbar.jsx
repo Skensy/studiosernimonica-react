@@ -10,7 +10,7 @@ function Navbar() {
 
   return (
     <>
-      <nav className="flex justify-center items-center flex-wrap justify-around absolute z-10 w-full">
+      <nav className="flex justify-center items-center flex-wrap justify-around absolute z-30 w-full">
         <div className="flex items-center w-auto justify-between">
           <a href="/index.html">
             <img
@@ -23,10 +23,10 @@ function Navbar() {
             <h1 className="text-2xl text-white font-light">STUDIO SERNI MONICA</h1>
           </a>
         </div>
-        <div>
+        <div className="z-30">
           <Menu>
             <MenuButton className="w-36">MENU</MenuButton>
-            <MenuItems anchor="bottom" className="w-36">
+            <MenuItems anchor="bottom" className="w-36 z-30">
               <MenuItem className="content-center">
                 <a className="block data-[focus]:bg-blue-100 bg-white text-center h-12" href="/index.html">
                   Home

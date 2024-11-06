@@ -17,7 +17,7 @@ import Cards from "./CardLists.jsx";
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <Navbar />
-    <Slider title="CONSULENZA CONTRATTUALE E DEL LAVORO" subtitle="consulente del lavoro" gradient="bg-gradient-to-r from-blue-800 to-indigo-900" />
+    <Slider title="CONSULENZA CONTRATTUALE E DEL LAVORO" subtitle="consulente del lavoro" imgUrl={Consulenza} />
     <Midcontent />
     <Cards />
   </StrictMode>

@@ -14,7 +14,7 @@ import Cards from "./CardLists.jsx";
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <Navbar />
-    <Slider title="ASSISTENZA FISCALE IN AMBITO LAVORATIVO" subtitle="consulente del lavoro" gradient="bg-gradient-to-r from-slate-900 to-slate-700" />
+    <Slider title="ASSISTENZA FISCALE IN AMBITO LAVORATIVO" subtitle="consulente del lavoro" imgUrl = {Assistenza}  />
     <Midcontent />
     <Cards />
   </StrictMode>

@@ -13,7 +13,7 @@ import Corpo from "./Corpo.jsx";
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <Navbar />
-    <Slider title="GESTIONE PAGHE E CONTRIBUTI" subtitle="consulente del lavoro" gradient="bg-gradient-to-r from-sky-600 to-teal-700" />
+    <Slider title="GESTIONE PAGHE E CONTRIBUTI" subtitle="consulente del lavoro" imgUrl={Paghe} />
     <Corpo />
   </StrictMode>
 );

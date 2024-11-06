@@ -11,13 +11,14 @@ function Cards() {
       <div>
         <h2 className="font-semibold text-4xl">SCOPRI I MIEI SERVIZI</h2>
       </div>
-      <div className="mt-16 flex justify-around flex-wrap gap-4 mb-12">
+      <div className="mt-16 flex flex-wrap gap-6 mb-12 justify-center">
         <Card
           Title="Gestione Paghe e Contributi"
           Description=""
           imgUrl={Paghe}
-          Gradient="bg-gradient-to-r from-sky-600 to-teal-700"
+          Gradient=""
           Url="/gestione-paghe-e-contributi-2.html"
+          cardImgUrl = {Paghe}
         />
         <Card
           Title="Consulenza Contrattuale e del Lavoro"
@@ -25,13 +26,15 @@ function Cards() {
           imgUrl={Consulenza}
           Gradient="bg-gradient-to-r from-blue-800 to-indigo-900"
           Url="/consulenza-contrattuale-e-del-lavoro.html"
+          cardImgUrl = {Consulenza}
         />
         <Card
           Title="Assistenza Fiscale in Ambito Lavorativo"
           Description=""
           imgUrl={Assistenza}
           Gradient="bg-gradient-to-r from-slate-900 to-slate-700"
-          Url="/assistenza-fiscale-in-ambito-lavorativo-1.html"
+          Url={"/assistenza-fiscale-in-ambito-lavorativo-1.html"}
+          cardImgUrl = {Assistenza}
         />
         <Card
           Title="Gestione delle Risorse mane"
@@ -39,6 +42,7 @@ function Cards() {
           imgUrl={Gestione}
           Gradient="bg-gradient-to-r from-violet-500 to-purple-500"
           Url="/gestione-delle-risorse-umane.html"
+          cardImgUrl = {Gestione}
         />
       </div>
     </>
