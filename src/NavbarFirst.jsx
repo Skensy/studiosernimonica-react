@@ -16,7 +16,7 @@ import {
 
 
 
-export default function App() {
+function NavbarFirst() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
 
   const menuItems = ["Home", "Contatti", "Servizi", "FAQ", "Gestione Paghe e Contributi"];
@@ -61,3 +61,5 @@ export default function App() {
     </Navbar>
   );
 }
+
+export default NavbarFirst;

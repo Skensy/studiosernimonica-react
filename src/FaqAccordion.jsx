@@ -13,7 +13,7 @@ import Cards from "./CardLists.jsx";
 import {Accordion, AccordionItem} from "@nextui-org/react";
 
 
-function Corpo() {
+function FaqAccordion() {
   const firstContent =
   "Studio Serni Monica si specializza nella consulenza del lavoro, offrendo servizi di elaborazione delle buste paga, calcolo dei contributi previdenziali, assistenza nelle relazioni con gli enti previdenziali e supporto in caso di ispezioni.";
   const secondContent =
@@ -21,7 +21,7 @@ function Corpo() {
 
   return (
     <>
-      <div className="sm:px-8 md:px-24 lg:px-24 xl:px-48 2xl:px-56 py-28 text-left bg-white">
+      <div className="sm:px-8 md:px-24 lg:px-24 xl:px-48 2xl:px-56 py-28 text-left w-full bg-white">
       <Accordion className="p-6">
       <AccordionItem key="1" aria-label="" title="Che tipo di servizi offre Studio Serni Monica?">
         <div className="p-4">
@@ -42,4 +42,4 @@ function Corpo() {
   );
 }
 
-export default Corpo;
+export default FaqAccordion;

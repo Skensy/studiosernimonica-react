@@ -1,7 +1,7 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import "./index.css";
-import Navbar from "./NavbarFirst.jsx";
+import NavbarFirst from "./NavbarFirst.jsx";
 import Slider from "./Slider.jsx";
 import Paghe from "./assets/paghe-e-contributi.jpg";
 import Corpo from "./Corpo.jsx";
@@ -10,7 +10,7 @@ import Corpo from "./Corpo.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <Navbar />
+    <NavbarFirst />
     <Slider title="GESTIONE PAGHE E CONTRIBUTI" subtitle="consulente del lavoro" imgUrl={Paghe} />
     <Corpo />
   </StrictMode>

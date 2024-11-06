@@ -1,7 +1,7 @@
 import { createElement, StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import "./index.css";
-import Navbar from "./NavbarFirst.jsx";
+import NavbarFirst from "./NavbarFirst.jsx";
 import Slider from "./Slider.jsx";
 import Midcontent from "./Midcontent.jsx";
 import Card from "./Card.jsx";
@@ -15,7 +15,7 @@ import Cards from "./CardLists.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <Navbar />
+    <NavbarFirst />
     <Slider title="CONSULENZA CONTRATTUALE E DEL LAVORO" subtitle="consulente del lavoro" imgUrl={Consulenza} />
     <Midcontent />
     <Cards />
