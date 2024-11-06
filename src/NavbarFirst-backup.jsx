@@ -4,8 +4,10 @@ import viteLogo from "/vite.svg";
 import "./Navbar.css";
 import logo from "./assets/logo-studio-serni-monica.png";
 import { Menu, MenuButton, MenuItem, MenuItems } from "@headlessui/react";
+import {  Navbar,   NavbarBrand,   NavbarContent,   NavbarItem,   NavbarMenuToggle,  NavbarMenu,  NavbarMenuItem} from "@nextui-org/navbar";
 
-function Navbar() {
+
+function NavbarFirst() {
   const [count, setCount] = useState(0);
 
   return (
@@ -55,4 +57,4 @@ function Navbar() {
   );
 }
 
-export default Navbar;
+export default NavbarFirst;

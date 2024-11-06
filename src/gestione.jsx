@@ -2,7 +2,7 @@ import { createElement, StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import "./index.css";
 import "./Navbar.css"
-import Navbar from "./Navbar.jsx";
+import Navbar from "./NavbarFirst.jsx";
 import Slider from "./Slider.jsx";
 import Midcontent from "./Midcontent.jsx";
 import Card from "./Card.jsx";
