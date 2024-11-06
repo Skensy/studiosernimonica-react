@@ -23,7 +23,7 @@ function NavbarFirst() {
   const linkItems = ["index.html", "contatti.html", "servizi.html", "faq.html", "gestione-paghe-e-contributi-2.html"]
 
   return (
-    <Navbar onMenuOpenChange={setIsMenuOpen} className="h-24 bg-gray-700 z-30 -mt-24">
+    <Navbar onMenuOpenChange={setIsMenuOpen} className="h-24 bg-gray-700 z-30 -mt-24 border-gray-900 border-b-2 border-solid ">
       <NavbarContent>
         <NavbarBrand>
           <a href="/index.html">
@@ -62,4 +62,4 @@ function NavbarFirst() {
   );
 }
 
-export default NavbarFirst;
+export default NavbarFirst

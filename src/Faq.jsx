@@ -5,7 +5,7 @@ import { NextUIProvider } from "@nextui-org/react";
 import NavbarFirst from "./NavbarFirst.jsx";
 import Slider from "./Slider.jsx";
 import FaqAccordion from "./FaqAccordion.jsx"
-import Faq from "./assets/Faq.jpg"
+import Faq from "./assets/faq.jpg"
 import Midcontent from "./Midcontent.jsx";
 
 
@@ -13,7 +13,6 @@ createRoot(document.getElementById("root")).render(
   <StrictMode>
     <NavbarFirst />
     <Slider title="FAQ" subtitle="consulente del lavoro" imgUrl={Faq} />
-    <Midcontent />
     <FaqAccordion />
   </StrictMode>
 );

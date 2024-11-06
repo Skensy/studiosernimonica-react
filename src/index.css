@@ -14,7 +14,6 @@
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   background-color: #f3efe8;
-  display: flex;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -71,8 +70,7 @@ a:hover {
 }
 
 body {
-  display: flex;
-  min-width: 100%;
+  width: 100%;
   min-height: 100vh;
 }
 
@@ -102,7 +100,6 @@ button:focus-visible {
 
 @media (prefers-color-scheme: light) {
   :root {
-    display: flex;
     color: black;
     background-color: #f3efe8;
     min-height: 100vh;
