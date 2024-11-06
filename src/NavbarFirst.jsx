@@ -50,7 +50,7 @@ export default function App() {
         {menuItems.map((item, index) => (
           <NavbarMenuItem className="" key={`${item}-${index}`}>
             <Link
-              className="bg-gray-500 text-white w-full justify-center uppercase text-xl p-8"
+              className="bg-gray-500 text-white w-full justify-center uppercase text-xl p-8 rounded-xl mt-4"
               href={`/${linkItems[index]}`}
               size="lg"
             >
