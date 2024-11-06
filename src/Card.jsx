@@ -2,10 +2,6 @@ import imgCard from "./assets/paghe-e-contributi.jpg";
 
 
 function Card(props) {
-  const Title = props.title;
-  const Description = props.description;
-  const imgUrl = props.img;
-  const Gradient = props.Gradient;
   const cardImgUrl = props.cardImgUrl;
 
   return (

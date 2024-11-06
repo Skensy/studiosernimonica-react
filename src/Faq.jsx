@@ -3,7 +3,6 @@ import { createRoot } from "react-dom/client";
 import "./index.css";
 import Navbar from "./NavbarFirst.jsx";
 import Slider from "./Slider.jsx";
-import Corpo from "./Corpo.jsx";
 import FaqAccordion from "./FaqAccordion.jsx"
 import Faq from "./assets/Faq.jpg"
 

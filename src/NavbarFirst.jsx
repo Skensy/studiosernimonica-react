@@ -1,9 +1,6 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
-import "./Navbar.css";
+import "./index.css";
 import logo from "./assets/logo-studio-serni-monica.png";
-import { Menu, MenuButton, MenuItem, MenuItems } from "@headlessui/react";
 import React from "react";
 import {
   Navbar,
@@ -17,6 +14,8 @@ import {
   Button,
 } from "@nextui-org/react";
 
+
+
 export default function App() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
 
@@ -24,7 +23,7 @@ export default function App() {
   const linkItems = ["index.html", "contatti.html", "servizi.html", "faq.html", "gestione-paghe-e-contributi-2.html"]
 
   return (
-    <Navbar onMenuOpenChange={setIsMenuOpen} className="h-24 bg-gray-700 z-30 -mt-20">
+    <Navbar onMenuOpenChange={setIsMenuOpen} className="h-24 bg-gray-700 z-30 -mt-24">
       <NavbarContent>
         <NavbarBrand>
           <a href="/index.html">

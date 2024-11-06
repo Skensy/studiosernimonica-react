@@ -8,7 +8,7 @@ import Gestione from "./assets/gestione-delle-risorse-umane.avif";
 function Cards() {
   return (
     <>
-      <div>
+      <div className="flex justify-center">
         <h2 className="font-semibold text-4xl">SCOPRI I MIEI SERVIZI</h2>
       </div>
       <div className="mt-16 flex flex-wrap gap-6 mb-12 justify-center">
