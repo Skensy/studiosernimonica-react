@@ -107,6 +107,8 @@ button:focus-visible {
     justify-content: center;
     color: black;
     background-color: #f3efe8;
+    min-width: 320px;
+    min-height: 100vh;
   }
 
   #consulenza {

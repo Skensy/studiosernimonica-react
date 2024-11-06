@@ -24,7 +24,7 @@ export default function App() {
   const linkItems = ["index.html", "contatti.html", "servizi.html", "faq.html", "gestione-paghe-e-contributi-2.html"]
 
   return (
-    <Navbar onMenuOpenChange={setIsMenuOpen} className="h-24 bg-gray-700 z-30">
+    <Navbar onMenuOpenChange={setIsMenuOpen} className="h-24 bg-gray-700 z-30 -mt-20">
       <NavbarContent>
         <NavbarBrand>
           <a href="/index.html">
@@ -50,7 +50,7 @@ export default function App() {
         {menuItems.map((item, index) => (
           <NavbarMenuItem className="" key={`${item}-${index}`}>
             <Link
-              className="bg-gray-500 text-white w-full justify-center uppercase text-xl p-8 rounded-xl mt-4"
+              className="bg-gray-500 text-white w-full justify-center uppercase text-lg p-4 rounded-xl mt-4"
               href={`/${linkItems[index]}`}
               size="lg"
             >
