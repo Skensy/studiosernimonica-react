@@ -1,6 +1,6 @@
 function Midcontent() {
   return (
-    <div className="my-36 px-24 sm:px-24 md:px-36 lg:px-48 xl:px-96 py-12">
+    <div className="my-36 px-24 sm:px-12 md:px-36 lg:px-48 xl:px-96 py-12">
       <p className="font-light text-2xl text-center">
         Con oltre 40 anni di esperienza nell’amministrazione del personale, lo
         <a className="underline decoration-sky-500"> Studio di Consulenza del Lavoro Serni Monica</a> si dedica quotidianamente

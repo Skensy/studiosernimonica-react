@@ -6,6 +6,8 @@ import NavbarFirst from "./NavbarFirst.jsx";
 import Slider from "./Slider.jsx";
 import Midcontent from "./Midcontent.jsx";
 import Cards from "./CardLists.jsx";
+import Mappa from "./Mappa.jsx"
+
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
@@ -19,6 +21,7 @@ createRoot(document.getElementById("root")).render(
       />
       <Midcontent />
       <Cards />
+      <Mappa />
     </NextUIProvider>
   </StrictMode>
 );
