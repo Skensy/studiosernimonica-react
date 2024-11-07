@@ -12,12 +12,12 @@ import Gestione from "./assets/gestione-delle-risorse-umane.avif";
 import Cards from "./CardLists.jsx";
 import Scelta from "./Scelta.jsx"
 
-function Corpo() {
+function CorpoPaghe() {
   const riga = "h-1 bg-black my-10 w-44";
 
   return (
     <>
-      <div className="sm:px-8 md:px-24 lg:px-24 xl:px-48 2xl:px-56 px-6 py-28 text-left bg-white">
+      <div className="sm:px-8 md:px-24 lg:px-24 xl:px-48 2xl:px-56 px-6 py-28 text-left">
         <h2 className="text-xl mb-6">
           Studio Serni Monica è il tuo partner di fiducia per la gestione
           completa delle buste paga e dei contributi previdenziali. Offriamo un
@@ -62,4 +62,4 @@ function Corpo() {
   );
 }
 
-export default Corpo;
+export default CorpoPaghe;

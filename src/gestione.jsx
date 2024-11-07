@@ -10,6 +10,8 @@ import Assistenza from "./assets/assistenza-fiscale-serni-monica.avif"
 import Consulenza from "./assets/consulenza-contrattuale-e-del-lavoro.avif"
 import Gestione from "./assets/gestione-delle-risorse-umane.avif"
 import Cards from "./CardLists.jsx";
+import CorpoGestione from "./CorpoGestione.jsx";
+import Scelta from "./Scelta.jsx";
 
 
 
@@ -17,7 +19,7 @@ createRoot(document.getElementById("root")).render(
   <StrictMode>
     <NavbarFirst />
     <Slider title="GESTIONE DELLE RISORSE UMANE" subtitle="consulente del lavoro" imgUrl = {Gestione} />
-    <Midcontent />
-    <Cards />
+    <CorpoGestione />
+    <Scelta />
   </StrictMode>
 );
