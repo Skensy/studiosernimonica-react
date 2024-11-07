@@ -26,12 +26,12 @@ function NavbarFirst() {
     <Navbar onMenuOpenChange={setIsMenuOpen} className="h-24 bg-gray-700 z-30 -mt-24 drop-shadow-xl ">
       <NavbarContent>
         <NavbarBrand>
-        <Link to="/"><img
+        <Link to=""><img
               className="min-h-36 min-w-36 max-h-36 max-w-36"
               src={logo}
               alt="logo-studio-serni-monica"
             /></Link>
-          <Link to="/">
+          <Link to="">
             <p className="font-bold text-white">STUDIO SERNI MONICA</p>
           </Link>
         </NavbarBrand>
