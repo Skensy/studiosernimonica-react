@@ -14,6 +14,7 @@ import Paghe from "./Paghe.jsx"
 import Assistenza from "./Assistenza.jsx"
 import Contatti from "./Contatti.jsx"
 import Faq from "./Faq.jsx"
+import Servizi from "./Servizi.jsx"
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
@@ -60,6 +61,10 @@ createRoot(document.getElementById("root")).render(
           <Route
             path="/faq"
             element={<Faq />}
+          />
+          <Route
+            path="/servizi"
+            element={<Servizi />}
           />
         </Routes>
       </BrowserRouter>

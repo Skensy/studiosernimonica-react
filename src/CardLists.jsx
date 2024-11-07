@@ -9,7 +9,7 @@ function Cards() {
   return (
     <>
       <div className="flex justify-center">
-        <h2 className="font-semibold text-4xl">SCOPRI I MIEI SERVIZI</h2>
+        <h2 className="font-semibold text-4xl text-gray-700">SCOPRI I MIEI SERVIZI</h2>
       </div>
       <div className="mt-16 flex flex-wrap gap-6 mb-12 justify-center">
         <Card

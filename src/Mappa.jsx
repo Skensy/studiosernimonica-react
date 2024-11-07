@@ -26,7 +26,7 @@ function Mappa() {
   return (
     <>
       <div className="flex flex-col justify-center place-items-center px-12 sm:px-12 md:px-36 lg:px-48 xl:px-96 mt-44">
-        <h2 className="font-semibold text-4xl text-center mb-2">
+        <h2 className="font-semibold text-4xl text-center mb-2 text-gray-700">
           PASSA A TROVARCI A VITERBO PER UNA CONSULENZA
         </h2>
         <p className="font-light">

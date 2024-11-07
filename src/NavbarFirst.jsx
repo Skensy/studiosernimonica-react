@@ -19,8 +19,8 @@ import {
 function NavbarFirst() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
 
-  const menuItems = ["Home", "Contatti", "Servizi", "FAQ", "Gestione Paghe e Contributi"];
-  const linkItems = ["", "contatti", "servizi", "faq", "gestione-paghe-e-contributi-2"]
+  const menuItems = ["Home", "Contatti", "Servizi", "FAQ"];
+  const linkItems = ["", "contatti", "servizi", "faq"]
 
   return (
     <Navbar onMenuOpenChange={setIsMenuOpen} className="h-24 bg-gray-700 z-30 -mt-24 drop-shadow-xl ">
