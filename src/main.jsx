@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route, HashRouter } from "react-router-dom";
+import { Routes, Route, HashRouter } from "react-router-dom";
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import { NextUIProvider } from "@nextui-org/react";
@@ -15,7 +15,6 @@ import Assistenza from "./Assistenza.jsx"
 import Contatti from "./Contatti.jsx"
 import Faq from "./Faq.jsx"
 import Servizi from "./Servizi.jsx"
-import { HashRouter } from "react-router-dom";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
