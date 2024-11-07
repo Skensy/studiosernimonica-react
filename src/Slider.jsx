@@ -1,4 +1,5 @@
 import sliderFoto from "./assets/slider-foto.avif";
+import { motion } from "framer-motion";
 
 
 function Slider(props) {
