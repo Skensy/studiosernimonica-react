@@ -18,23 +18,40 @@ function FaqAccordion() {
   "Studio Serni Monica si specializza nella consulenza del lavoro, offrendo servizi di elaborazione delle buste paga, calcolo dei contributi previdenziali, assistenza nelle relazioni con gli enti previdenziali e supporto in caso di ispezioni.";
   const secondContent =
   "Certamente. Forniamo soluzioni personalizzate per rispondere efficacemente alle specifiche esigenze di ogni azienda, garantendo un servizio che si adatta perfettamente alle vostre necessità.";
+  const thirdContent = "Studio Serni Monica si impegna in un aggiornamento professionale continuo per garantire che il nostro team sia sempre al passo con le ultime normative e possa fornire consulenza aggiornata ed efficace."
+  const fourthContent = "Studio Serni Monica garantisce la conformità legale attraverso un’accurata gestione delle buste paga, calcolo dei contributi previdenziali e assistenza continua, riducendo il rischio di errori e sanzioni."
 
   return (
     <>
+      <div className="sm:px-8 md:px-24 lg:px-24 xl:px-48 2xl:px-64 px-8 pt-28 text-left bg-white">
+        <h2 className="text-xl font-semibold">
+        FAQ - Domande frequenti
+        </h2>
+        <p>In questa sezione troverai le risposte alle domande più comuni sui nostri servizi di consulenza del lavoro. Se hai bisogno di ulteriori informazioni, non esitare a contattarci.</p>
+
+
+      </div>
       <div className="sm:px-8 md:px-24 lg:px-24 xl:px-48 2xl:px-56 py-28 text-left w-full bg-white">
       <Accordion className="p-6">
-      <AccordionItem key="1" aria-label="" title="Che tipo di servizi offre Studio Serni Monica?">
+      <AccordionItem key="1" aria-label="Accordion 1" title="Che tipo di servizi offre Studio Serni Monica?">
         <div className="p-4">
             {firstContent}
         </div>
       </AccordionItem>
-      <AccordionItem key="2" aria-label="Accordion 2" title="È POSSIBILE PERSONALIZZARE I SERVIZI OFFERTI IN BASE ALLE ESIGENZE DELLA MIA AZIENDA?">
+      <AccordionItem key="2" aria-label="Accordion 2" title="È possibile personalizzare i servizi offerti in base alle esigenze della mia azienda?">
       <div className="p-4">
             {secondContent}
         </div>
       </AccordionItem>
-      <AccordionItem key="3" aria-label="Accordion 3" title="Accordion 3">
-        {firstContent}
+      <AccordionItem key="3" aria-label="Accordion 3" title="Qual è l'approccio di Serni Monica all'aggiornamento professionale">
+      <div className="p-4">
+            {thirdContent}
+        </div>
+      </AccordionItem>
+      <AccordionItem key="4" aria-label="Accordion 4" title="Come posso essere sicuro che la mia azienda sia in conformità con le normative vigenti?">
+      <div className="p-4">
+            {fourthContent}
+        </div>
       </AccordionItem>
     </Accordion>
       </div>
