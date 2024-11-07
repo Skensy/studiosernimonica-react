@@ -5,7 +5,6 @@ import NavbarFirst from "./NavbarFirst.jsx";
 import Slider from "./Slider.jsx";
 import FaqAccordion from "./FaqAccordion.jsx"
 import Faq from "./assets/faq.jpg"
-import Midcontent from "./Midcontent.jsx";
 
 
 function faqPage() {
