@@ -12,13 +12,17 @@ import Gestione from "./assets/gestione-delle-risorse-umane.avif";
 import Cards from "./CardLists.jsx";
 import Contatti from "./assets/contatti.jpg"
 
-createRoot(document.getElementById("root")).render(
-  <StrictMode>
+function contattiPage() {
+  return (
+    <>
     <NavbarFirst />
     <Slider
       title="CONTATTI"
       subtitle="consulente del lavoro"
       imgUrl={Contatti}
     />
-  </StrictMode>
-);
+    </>
+  )
+}
+
+export default contattiPage;

@@ -8,12 +8,16 @@ import Scelta from "./Scelta.jsx";
 import CorpoPaghe from "./CorpoPaghe.jsx";
 
 
-
-createRoot(document.getElementById("root")).render(
-  <StrictMode>
+function paghePage() {
+  return (
+    <>
     <NavbarFirst />
     <Slider title="GESTIONE PAGHE E CONTRIBUTI" subtitle="consulente del lavoro" imgUrl={Paghe} />
     <CorpoPaghe />
     <Scelta />
-  </StrictMode>
-);
+    </>
+  )
+}
+
+
+export default paghePage;

@@ -14,12 +14,16 @@ import CorpoGestione from "./CorpoGestione.jsx";
 import Scelta from "./Scelta.jsx";
 
 
-
-createRoot(document.getElementById("root")).render(
-  <StrictMode>
+function GestionePage() {
+  return (
+    <>
     <NavbarFirst />
     <Slider title="GESTIONE DELLE RISORSE UMANE" subtitle="consulente del lavoro" imgUrl = {Gestione} />
     <CorpoGestione />
     <Scelta />
-  </StrictMode>
-);
+    </>
+  )
+}
+
+
+export default GestionePage

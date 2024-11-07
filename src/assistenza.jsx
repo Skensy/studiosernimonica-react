@@ -13,11 +13,15 @@ import Cards from "./CardLists.jsx";
 import CorpoAssistenza from "./CorpoAssistenza.jsx";
 import Scelta from "./Scelta.jsx";
 
-createRoot(document.getElementById("root")).render(
-  <StrictMode>
+function assistenzaPage() {
+  return (
+    <>
     <NavbarFirst />
     <Slider title="ASSISTENZA FISCALE IN AMBITO LAVORATIVO" subtitle="consulente del lavoro" imgUrl = {Assistenza}  />
     <CorpoAssistenza />
     <Scelta />
-  </StrictMode>
-);
+    </>
+  )
+}
+
+export default assistenzaPage;

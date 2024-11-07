@@ -17,7 +17,7 @@ function Cards() {
           Description=""
           imgUrl={Paghe}
           Gradient=""
-          Url="/gestione-paghe-e-contributi-2.html"
+          Url="/gestione-paghe-e-contributi-2"
           cardImgUrl = {Paghe}
         />
         <Card
@@ -25,7 +25,7 @@ function Cards() {
           Description=""
           imgUrl={Consulenza}
           Gradient="bg-gradient-to-r from-blue-800 to-indigo-900"
-          Url="/consulenza-contrattuale-e-del-lavoro.html"
+          Url="/consulenza-contrattuale-e-del-lavoro"
           cardImgUrl = {Consulenza}
         />
         <Card
@@ -33,7 +33,7 @@ function Cards() {
           Description=""
           imgUrl={Assistenza}
           Gradient="bg-gradient-to-r from-slate-900 to-slate-700"
-          Url={"/assistenza-fiscale-in-ambito-lavorativo-1.html"}
+          Url={"/assistenza-fiscale-in-ambito-lavorativo-1"}
           cardImgUrl = {Assistenza}
         />
         <Card
@@ -41,7 +41,7 @@ function Cards() {
           Description=""
           imgUrl={Gestione}
           Gradient="bg-gradient-to-r from-violet-500 to-purple-500"
-          Url="/gestione-delle-risorse-umane.html"
+          Url="/gestione-delle-risorse-umane"
           cardImgUrl = {Gestione}
         />
       </div>

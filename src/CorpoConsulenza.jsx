@@ -27,7 +27,7 @@ function CorpoConsulenza() {
           Provincia e tutto il territorio nazionale.
         </h2>
         <div className={riga}></div>
-        <h2 class="uppercase text-4xl mb-12">
+        <h2 className="uppercase text-4xl mb-12">
           <strong>Servizi Offerti</strong>
         </h2>
         <p>

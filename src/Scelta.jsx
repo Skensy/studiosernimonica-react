@@ -1,7 +1,7 @@
 function Scelta() {
     return (
         <div className="border-black/50 border-t-2 border-solid bg-gradient-to-t from-slate-200 to-slate-300 sm:px-8 md:px-24 lg:px-24 xl:px-48 2xl:px-56 px-6 py-12 text-left">
-        <h2 class="uppercase text-4xl font-bold mb-12 mt-12">
+        <h2 className="uppercase text-4xl font-bold mb-12 mt-12">
           Perch&eacute; Scegliere Studio Serni Monica?
         </h2>
         <div>

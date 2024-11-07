@@ -20,20 +20,20 @@ function NavbarFirst() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
 
   const menuItems = ["Home", "Contatti", "Servizi", "FAQ", "Gestione Paghe e Contributi"];
-  const linkItems = ["index.html", "contatti.html", "servizi.html", "faq.html", "gestione-paghe-e-contributi-2.html"]
+  const linkItems = ["", "contatti", "servizi", "faq", "gestione-paghe-e-contributi-2"]
 
   return (
     <Navbar onMenuOpenChange={setIsMenuOpen} className="h-24 bg-gray-700 z-30 -mt-24 drop-shadow-xl ">
       <NavbarContent>
         <NavbarBrand>
-          <a href="/index.html">
+          <a href="/">
             <img
               className="min-h-36 min-w-36 max-h-36 max-w-36"
               src={logo}
               alt="logo-studio-serni-monica"
             />
           </a>
-          <a href="/index.html">
+          <a href="/">
             <p className="font-bold text-white">STUDIO SERNI MONICA</p>
           </a>
         </NavbarBrand>

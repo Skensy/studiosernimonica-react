@@ -15,12 +15,16 @@ import Scelta from "./Scelta.jsx";
 import CorpoConsulenza from "./CorpoConsulenza.jsx";
 
 
-
-createRoot(document.getElementById("root")).render(
-  <StrictMode>
+function ConsulenzaPage() {
+  return (
+    <>
     <NavbarFirst />
     <Slider title="CONSULENZA CONTRATTUALE E DEL LAVORO" subtitle="consulente del lavoro" imgUrl={Consulenza} />
     <CorpoConsulenza />
     <Scelta />
-  </StrictMode>
-);
+    </>
+  )
+}
+
+
+export default ConsulenzaPage;
