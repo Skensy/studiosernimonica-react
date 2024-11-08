@@ -3,7 +3,7 @@ import "./index.css";
 import logo from "./assets/logo-studio-serni-monica.png";
 import React from "react";
 import { NextUIProvider } from "@nextui-org/react";
-import { Link } from 'react-router-dom'
+import { Link } from "react-router-dom";
 import {
   Navbar,
   NavbarBrand,
@@ -26,7 +26,7 @@ function NavbarFirst() {
       onMenuOpenChange={setIsMenuOpen}
       className="h-24 bg-gray-700 z-30 -mt-24 drop-shadow-xl "
     >
-      <NavbarContent> 
+      <NavbarContent>
         <NavbarBrand>
           <Link to="/">
             <img
@@ -47,19 +47,19 @@ function NavbarFirst() {
           className="bg-transparent text-white"
         />
       </NavbarContent>
-      <NavbarMenu className="justify-start mt-8 bg-gray-700/50">
-        {menuItems.map((item, index) => (
-          <NavbarMenuItem className="" key={`${item}-${index}`}>
-            <Link
-              className="bg-gray-500 text-white w-full justify-center uppercase text-lg p-4 rounded-xl mt-4"
-              to={`/${linkItems[index]}`}
-              size="lg"
-            >
-              {item}
-            </Link>
-          </NavbarMenuItem>
-        ))}
-      </NavbarMenu>
+      <div className="flex ">
+        <NavbarMenu className="py-6 items-center mt-8 bg-gray-700/50">
+          {menuItems.map((item, index) => (
+            <NavbarMenuItem className="" key={`${item}-${index}`}>
+              <div className="bg-gray-500 text-white w-96 text-center justify-center uppercase text-xl p-4 rounded-xl mt-4">
+                <Link to={`/${linkItems[index]}`} size="lg">
+                  {item}
+                </Link>
+              </div>
+            </NavbarMenuItem>
+          ))}
+        </NavbarMenu>
+      </div>
     </Navbar>
   );
 }
