@@ -3,6 +3,7 @@ import "./index.css";
 import logo from "./assets/logo-studio-serni-monica.png";
 import React from "react";
 import { NextUIProvider } from "@nextui-org/react";
+import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import {
   Navbar,
@@ -29,7 +30,8 @@ function NavbarFirst() {
       <NavbarContent>
         <NavbarBrand>
           <Link to="/">
-            <img
+            <motion.img
+            whileHover={{ scale: 1.05 }}
               className="min-h-36 min-w-36 max-h-36 max-w-36"
               src={logo}
               alt="logo-studio-serni-monica"
@@ -51,7 +53,7 @@ function NavbarFirst() {
         <NavbarMenu className="py-6 items-center mt-8 bg-gray-700/50">
           {menuItems.map((item, index) => (
             <NavbarMenuItem className="" key={`${item}-${index}`}>
-              <div className="bg-gray-500 text-white w-96 text-center justify-center uppercase text-xl p-4 rounded-xl mt-4">
+              <div className="bg-gray-700 text-white w-96 text-center justify-center uppercase text-xl p-4 rounded-xl mt-4">
                 <Link to={`/${linkItems[index]}`} size="lg">
                   {item}
                 </Link>

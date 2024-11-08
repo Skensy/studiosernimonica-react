@@ -5,13 +5,11 @@ import Assistenza from "./assets/assistenza-fiscale-serni-monica.avif";
 import Consulenza from "./assets/consulenza-contrattuale-e-del-lavoro.avif";
 import Gestione from "./assets/gestione-delle-risorse-umane.avif";
 import { Link } from "react-router-dom";
-import { useRef } from 'react';
-
-
+import { useRef } from "react";
 
 function Cards() {
   const scrollToTop = () => {
-    window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
+    window.scrollTo({ top: 0, left: 0, behavior: "instant" });
   };
 
   return (
@@ -22,42 +20,56 @@ function Cards() {
         </h2>
       </div>
       <div className="mt-16 flex flex-wrap gap-6 mb-12 justify-center">
-        <Link to="/gestione-paghe-e-contributi-2" onClick={scrollToTop}>  
-          <Card
-            Title="Gestione Paghe e Contributi"
-            Description=""
-            imgUrl={Paghe}
-            Gradient=""
-            cardImgUrl={Paghe}
-          />
-        </Link>
-        <Link to="/consulenza-contrattuale-e-del-lavoro" onClick={scrollToTop}>
-          <Card
-            Title="Consulenza Contrattuale e del Lavoro"
-            Description=""
-            imgUrl={Consulenza}
-            Gradient="bg-gradient-to-r from-blue-800 to-indigo-900"
-            cardImgUrl={Consulenza}
-          />
-        </Link>
-        <Link to="/assistenza-fiscale-in-ambito-lavorativo-1" onClick={scrollToTop}>
-          <Card
-            Title="Assistenza Fiscale in Ambito Lavorativo"
-            Description=""
-            imgUrl={Assistenza}
-            Gradient="bg-gradient-to-r from-slate-900 to-slate-700"
-            cardImgUrl={Assistenza}
-          />
-        </Link>
-        <Link to="/gestione-delle-risorse-umane" onClick={scrollToTop}>
-          <Card
-            Title="Gestione delle Risorse mane"
-            Description=""
-            imgUrl={Gestione}
-            Gradient="bg-gradient-to-r from-violet-500 to-purple-500"
-            cardImgUrl={Gestione}
-          />
-        </Link>
+        <div>
+          <Link to="/gestione-paghe-e-contributi-2" onClick={scrollToTop}>
+            <Card
+              Title="Gestione Paghe e Contributi"
+              Description=""
+              imgUrl={Paghe}
+              Gradient=""
+              cardImgUrl={Paghe}
+            />
+          </Link>
+        </div>
+        <div>
+          <Link
+            to="/consulenza-contrattuale-e-del-lavoro"
+            onClick={scrollToTop}
+          >
+            <Card
+              Title="Consulenza Contrattuale e del Lavoro"
+              Description=""
+              imgUrl={Consulenza}
+              Gradient="bg-gradient-to-r from-blue-800 to-indigo-900"
+              cardImgUrl={Consulenza}
+            />
+          </Link>
+        </div>
+        <div>
+          <Link
+            to="/assistenza-fiscale-in-ambito-lavorativo-1"
+            onClick={scrollToTop}
+          >
+            <Card
+              Title="Assistenza Fiscale in Ambito Lavorativo"
+              Description=""
+              imgUrl={Assistenza}
+              Gradient="bg-gradient-to-r from-slate-900 to-slate-700"
+              cardImgUrl={Assistenza}
+            />
+          </Link>
+        </div>
+        <div>
+          <Link to="/gestione-delle-risorse-umane" onClick={scrollToTop}>
+            <Card
+              Title="Gestione delle Risorse mane"
+              Description=""
+              imgUrl={Gestione}
+              Gradient="bg-gradient-to-r from-violet-500 to-purple-500"
+              cardImgUrl={Gestione}
+            />
+          </Link>
+        </div>
       </div>
     </>
   );
