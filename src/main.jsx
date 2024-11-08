@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, HashRouter } from "react-router-dom";
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import { NextUIProvider } from "@nextui-org/react";
@@ -19,7 +19,7 @@ import Servizi from "./Servizi.jsx"
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <NextUIProvider>
-      <BrowserRouter>
+      <HashRouter>
         <Routes>
           <Route
             path="/"
@@ -67,7 +67,7 @@ createRoot(document.getElementById("root")).render(
             element={<Servizi />}
           />
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </NextUIProvider>
   </StrictMode>
 );
