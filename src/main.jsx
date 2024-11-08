@@ -17,6 +17,7 @@ import Faq from "./Faq.jsx"
 import Servizi from "./Servizi.jsx"
 import sliderMain from "./assets/slider-foto.avif"
 
+
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <NextUIProvider>

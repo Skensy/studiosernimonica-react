@@ -6,7 +6,9 @@ import Consulenza from "./assets/consulenza-contrattuale-e-del-lavoro.avif";
 import Gestione from "./assets/gestione-delle-risorse-umane.avif";
 import { Link } from "react-router-dom";
 
+
 function Cards() {
+
   return (
     <>
       <div className="flex justify-center">

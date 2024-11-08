@@ -24,7 +24,7 @@ function CorpoAssistenza() {
           garantendo serenità e sicurezza ai nostri clienti.
         </h2>
         <div className={riga}></div>
-        <h2 class="uppercase text-4xl mb-12">
+        <h2 className="uppercase text-4xl mb-12">
           <strong>Assistenza Fiscale per Lavoratori Dipendenti</strong>
         </h2>
         <p>

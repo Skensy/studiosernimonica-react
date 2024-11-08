@@ -2,6 +2,7 @@ import { useState } from "react";
 import "./index.css";
 import logo from "./assets/logo-studio-serni-monica.png";
 import React from "react";
+import { NextUIProvider } from "@nextui-org/react";
 import { Link } from 'react-router-dom'
 import {
   Navbar,
@@ -25,7 +26,7 @@ function NavbarFirst() {
       onMenuOpenChange={setIsMenuOpen}
       className="h-24 bg-gray-700 z-30 -mt-24 drop-shadow-xl "
     >
-      <NavbarContent>
+      <NavbarContent> 
         <NavbarBrand>
           <Link to="/">
             <img
