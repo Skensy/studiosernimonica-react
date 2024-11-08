@@ -2,6 +2,7 @@ import { useState } from "react";
 import "./index.css";
 import logo from "./assets/logo-studio-serni-monica.png";
 import React from "react";
+import { Link } from 'react-router-dom'
 import {
   Navbar,
   NavbarBrand,
@@ -10,32 +11,32 @@ import {
   NavbarMenuToggle,
   NavbarMenu,
   NavbarMenuItem,
-  Link,
   Button,
 } from "@nextui-org/react";
-
-
 
 function NavbarFirst() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
 
   const menuItems = ["Home", "Contatti", "Servizi", "FAQ"];
-  const linkItems = ["", "contatti", "servizi", "faq"]
+  const linkItems = ["", "contatti", "servizi", "faq"];
 
   return (
-    <Navbar onMenuOpenChange={setIsMenuOpen} className="h-24 bg-gray-700 z-30 -mt-24 drop-shadow-xl ">
+    <Navbar
+      onMenuOpenChange={setIsMenuOpen}
+      className="h-24 bg-gray-700 z-30 -mt-24 drop-shadow-xl "
+    >
       <NavbarContent>
         <NavbarBrand>
-          <a href="/">
+          <Link to="/">
             <img
               className="min-h-36 min-w-36 max-h-36 max-w-36"
               src={logo}
               alt="logo-studio-serni-monica"
             />
-          </a>
-          <a href="/">
+          </Link>
+          <Link to="/">
             <p className="font-bold text-white">STUDIO SERNI MONICA</p>
-          </a>
+          </Link>
         </NavbarBrand>
       </NavbarContent>
 
@@ -50,7 +51,7 @@ function NavbarFirst() {
           <NavbarMenuItem className="" key={`${item}-${index}`}>
             <Link
               className="bg-gray-500 text-white w-full justify-center uppercase text-lg p-4 rounded-xl mt-4"
-              href={`/${linkItems[index]}`}
+              to={`/${linkItems[index]}`}
               size="lg"
             >
               {item}
@@ -62,4 +63,4 @@ function NavbarFirst() {
   );
 }
 
-export default NavbarFirst
+export default NavbarFirst;
