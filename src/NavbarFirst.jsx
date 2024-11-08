@@ -36,7 +36,7 @@ function NavbarFirst() {
             />
           </Link>
           <Link to="/">
-            <p className="font-bold text-white">STUDIO SERNI MONICA</p>
+            <p className="font-bold text-white hidden sm:block">STUDIO SERNI MONICA</p>
           </Link>
         </NavbarBrand>
       </NavbarContent>
