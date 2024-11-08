@@ -20,7 +20,7 @@ function serviziPage() {
     <>
       <NavbarFirst />
       <Slider
-        title="Servizi"
+        title="SERVIZI"
         subtitle="consulente del lavoro"
         gradient=""
         imgUrl={serviziImg}

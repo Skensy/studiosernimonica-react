@@ -22,6 +22,10 @@ function NavbarFirst() {
   const menuItems = ["Home", "Contatti", "Servizi", "FAQ"];
   const linkItems = ["", "contatti", "servizi", "faq"];
 
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+  }
+
   return (
     <Navbar
       onMenuOpenChange={setIsMenuOpen}
@@ -29,7 +33,7 @@ function NavbarFirst() {
     >
       <NavbarContent>
         <NavbarBrand>
-          <Link to="/">
+          <Link to="/" onClick={scrollToTop}>
             <motion.img
             whileHover={{ scale: 1.05 }}
               className="min-h-36 min-w-36 max-h-36 max-w-36"
@@ -37,7 +41,7 @@ function NavbarFirst() {
               alt="logo-studio-serni-monica"
             />
           </Link>
-          <Link to="/">
+          <Link to="/" onClick={scrollToTop}>
             <p className="font-bold text-white hidden sm:block">STUDIO SERNI MONICA</p>
           </Link>
         </NavbarBrand>
