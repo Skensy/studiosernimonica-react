@@ -3,7 +3,7 @@
   "private": false,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://skensy.github.io/studiosernimonica-react/",
+  "homepage": ".",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
