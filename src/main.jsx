@@ -15,6 +15,7 @@ import Assistenza from "./Assistenza.jsx"
 import Contatti from "./Contatti.jsx"
 import Faq from "./Faq.jsx"
 import Servizi from "./Servizi.jsx"
+import sliderMain from "./assets/slider-foto.avif"
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
@@ -30,7 +31,7 @@ createRoot(document.getElementById("root")).render(
                   title="STUDIO SERNI MONICA"
                   subtitle="consulente del lavoro"
                   gradient=""
-                  imgUrl="./src/assets/slider-foto.avif"
+                  imgUrl={sliderMain}
                 />
                 <Midcontent />
                 <Cards />
