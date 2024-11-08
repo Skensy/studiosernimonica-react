@@ -5,9 +5,14 @@ import Assistenza from "./assets/assistenza-fiscale-serni-monica.avif";
 import Consulenza from "./assets/consulenza-contrattuale-e-del-lavoro.avif";
 import Gestione from "./assets/gestione-delle-risorse-umane.avif";
 import { Link } from "react-router-dom";
+import { useRef } from 'react';
+
 
 
 function Cards() {
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
+  };
 
   return (
     <>
@@ -17,7 +22,7 @@ function Cards() {
         </h2>
       </div>
       <div className="mt-16 flex flex-wrap gap-6 mb-12 justify-center">
-        <Link to="/gestione-paghe-e-contributi-2">
+        <Link to="/gestione-paghe-e-contributi-2" onClick={scrollToTop}>  
           <Card
             Title="Gestione Paghe e Contributi"
             Description=""
@@ -26,7 +31,7 @@ function Cards() {
             cardImgUrl={Paghe}
           />
         </Link>
-        <Link to="/consulenza-contrattuale-e-del-lavoro">
+        <Link to="/consulenza-contrattuale-e-del-lavoro" onClick={scrollToTop}>
           <Card
             Title="Consulenza Contrattuale e del Lavoro"
             Description=""
@@ -35,7 +40,7 @@ function Cards() {
             cardImgUrl={Consulenza}
           />
         </Link>
-        <Link to="/assistenza-fiscale-in-ambito-lavorativo-1">
+        <Link to="/assistenza-fiscale-in-ambito-lavorativo-1" onClick={scrollToTop}>
           <Card
             Title="Assistenza Fiscale in Ambito Lavorativo"
             Description=""
@@ -44,7 +49,7 @@ function Cards() {
             cardImgUrl={Assistenza}
           />
         </Link>
-        <Link to="/gestione-delle-risorse-umane">
+        <Link to="/gestione-delle-risorse-umane" onClick={scrollToTop}>
           <Card
             Title="Gestione delle Risorse mane"
             Description=""

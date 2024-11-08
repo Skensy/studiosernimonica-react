@@ -15,6 +15,7 @@ import Scelta from "./Scelta.jsx";
 
 
 function GestionePage() {
+
   return (
     <>
     <NavbarFirst />
