@@ -4,7 +4,7 @@ import fakeMaps from "./assets/fake-google-maps.jpg";
 
 function Mappa() {
   const fakeGoogleMaps = (
-    <div className="flex justify-center place-items-center mt-6 mb-6 px-6">
+    <div className="flex justify-center place-items-center mt-6 mb-36 px-6">
       <img src={fakeMaps} alt="" width={1100} height={400} />
     </div>
   );
@@ -25,7 +25,7 @@ function Mappa() {
 
   return (
     <>
-      <div className="flex flex-col justify-center place-items-center px-12 sm:px-12 md:px-36 lg:px-48 xl:px-96 mt-44">
+      <div className="flex flex-col justify-center place-items-center px-12 sm:px-12 md:px-36 lg:px-48 xl:px-96 mt-36">
         <h2 className="font-semibold text-4xl text-center mb-2 text-gray-700">
           PASSA A TROVARCI A VITERBO PER UNA CONSULENZA
         </h2>

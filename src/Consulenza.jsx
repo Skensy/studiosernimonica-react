@@ -6,6 +6,7 @@ import Slider from "./Slider.jsx";
 import imgConsulenza from "./assets/consulenza-contrattuale-e-del-lavoro.avif"
 import Scelta from "./Scelta.jsx";
 import CorpoConsulenza from "./CorpoConsulenza.jsx";
+import Footer from "./Footer.jsx";
 
 
 function Consulenza() {
@@ -15,6 +16,7 @@ function Consulenza() {
     <Slider title="CONSULENZA CONTRATTUALE E DEL LAVORO" subtitle="consulente del lavoro" imgUrl={imgConsulenza} />
     <CorpoConsulenza />
     <Scelta />
+    <Footer />
     </>
   )
 }

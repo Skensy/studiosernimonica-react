@@ -14,7 +14,7 @@ function Card(props) {
         className="hover:shadow-2xl"
       >
         <div
-          className={`flex flex-col justify-center ${props.Gradient} w-64 h-96 rounded-xl bg-cover bg-center z-0 relative `}
+          className={`flex flex-col justify-center ${props.Gradient} w-72 h-96 rounded-xl bg-cover bg-center z-0 relative `}
           style={{ backgroundImage: `url('${cardImgUrl}')` }}
         >
           <div className="flex flex-col w-full h-full bg-black/50 absolute z-10 rounded-xl" />
