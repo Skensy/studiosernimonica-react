@@ -8,11 +8,11 @@ function Scelta(props) {
 
   return (
     <div
-      className={`border-black/20 border-t-2 border-solid bg-gradient-to-t from-slate-200 to-slate-300 sm:px-8 md:px-24 lg:px-24 xl:px-48 2xl:px-56 px-6 py-12 text-left ${bgDiv} ${firstDiv}`}
+      className={`-mt-36 sm:px-8 md:px-24 lg:px-24 xl:px-48 2xl:px-56 px-6 py-12 text-left ${bgDiv} ${firstDiv}`}
     >
       <h2 className="uppercase text-3xl font-bold mb-12 mt-12">
         Perch&eacute; Scegliere Studio Serni Monica?
-      </h2> 
+      </h2>
       <div className={`${secondDiv}`}>
         <div className={`mb-12 flex ${thirdDiv}`}>
           <div className={`flex items-center ${svgDiv}`}>

@@ -36,7 +36,6 @@ createRoot(document.getElementById("root")).render(
                   imgUrl={sliderMain}
                 />
                 <Midcontent />
-                <Cards />
                 <Scelta
                 bgDiv=""
                 firstDiv="flex-row text-center"
@@ -45,6 +44,7 @@ createRoot(document.getElementById("root")).render(
                 svgDiv=""
                 hpDiv="pr-6 pt-4 gap-2 text-sm w-full"
                 />
+                <Cards />
                 <Mappa />
                 <Footer />
               </>
