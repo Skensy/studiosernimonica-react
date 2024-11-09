@@ -5,6 +5,7 @@ import NavbarFirst from "./NavbarFirst.jsx";
 import Slider from "./Slider.jsx";
 import FaqAccordion from "./FaqAccordion.jsx"
 import Faq from "./assets/faq.jpg"
+import Footer from "./Footer.jsx";
 
 
 function faqPage() {
@@ -13,6 +14,7 @@ function faqPage() {
     <NavbarFirst />
     <Slider title="FAQ" subtitle="consulente del lavoro" imgUrl={Faq} />
     <FaqAccordion />
+    <Footer />
     </>
   )
 }

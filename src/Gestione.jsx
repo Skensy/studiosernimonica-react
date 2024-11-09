@@ -12,6 +12,7 @@ import Gestione from "./assets/gestione-delle-risorse-umane.avif"
 import Cards from "./CardLists.jsx";
 import CorpoGestione from "./CorpoGestione.jsx";
 import Scelta from "./Scelta.jsx";
+import Footer from "./Footer.jsx";
 
 
 function GestionePage() {
@@ -22,6 +23,7 @@ function GestionePage() {
     <Slider title="GESTIONE DELLE RISORSE UMANE" subtitle="consulente del lavoro" imgUrl = {Gestione} />
     <CorpoGestione />
     <Scelta />
+    <Footer />
     </>
   )
 }

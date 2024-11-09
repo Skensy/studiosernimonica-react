@@ -22,7 +22,7 @@ function NavbarFirst() {
 
   const scrollToTop = () => {
     window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
-  }
+  };
 
   return (
     <Navbar
@@ -31,13 +31,15 @@ function NavbarFirst() {
     >
       <NavbarContent>
         <NavbarBrand>
-        <Link to="/"><img
+          <Link to="/">
+            <img
               className="min-h-36 min-w-36 max-h-36 max-w-36"
               src={logo}
               alt="logo-studio-serni-monica"
-            /></Link>
+            />
+          </Link>
           <Link to="/">
-            <p className="font-bold text-white">STUDIO SERNI MONICA</p>
+            <p className="font-bold text-white hidden">STUDIO SERNI MONICA</p>
           </Link>
         </NavbarBrand>
       </NavbarContent>

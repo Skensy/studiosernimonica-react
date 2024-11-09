@@ -14,6 +14,7 @@ import CorpoGestione from "./CorpoGestione.jsx";
 import Scelta from "./Scelta.jsx";
 import serviziImg from "./assets/servizi.jpg"
 import ServiziContent from "./ServiziContent.jsx";
+import Footer from "./Footer.jsx";
 
 function serviziPage() {
   return (
@@ -27,6 +28,7 @@ function serviziPage() {
       />
       <ServiziContent />
       <Cards />
+      <Footer />
     </>
   );
 }

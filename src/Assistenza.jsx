@@ -11,7 +11,8 @@ import Consulenza from "./assets/consulenza-contrattuale-e-del-lavoro.avif";
 import Gestione from "./assets/gestione-delle-risorse-umane.avif";
 import Cards from "./CardLists.jsx";
 import CorpoAssistenza from "./CorpoAssistenza.jsx";
-import Scelta from "./Scelta.jsx";
+import Scelta from "./Scelta.jsx"
+import Footer from "./Footer.jsx";
 
 function assistenzaPage() {
   return (
@@ -20,6 +21,7 @@ function assistenzaPage() {
     <Slider title="ASSISTENZA FISCALE IN AMBITO LAVORATIVO" subtitle="consulente del lavoro" imgUrl = {Assistenza}  />
     <CorpoAssistenza />
     <Scelta />
+    <Footer />
     </>
   )
 }

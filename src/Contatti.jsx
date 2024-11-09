@@ -10,19 +10,21 @@ import Assistenza from "./assets/assistenza-fiscale-serni-monica.avif";
 import Consulenza from "./assets/consulenza-contrattuale-e-del-lavoro.avif";
 import Gestione from "./assets/gestione-delle-risorse-umane.avif";
 import Cards from "./CardLists.jsx";
-import Contatti from "./assets/contatti.jpg"
+import Contatti from "./assets/contatti.jpg";
+import Footer from "./Footer.jsx";
 
 function contattiPage() {
   return (
     <>
-    <NavbarFirst />
-    <Slider
-      title="CONTATTI"
-      subtitle="consulente del lavoro"
-      imgUrl={Contatti}
-    />
+      <NavbarFirst />
+      <Slider
+        title="CONTATTI"
+        subtitle="consulente del lavoro"
+        imgUrl={Contatti}
+      />
+      <Footer />
     </>
-  )
+  );
 }
 
 export default contattiPage;

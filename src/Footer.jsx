@@ -10,33 +10,49 @@ function Footer() {
   return (
     <>
       <footer>
-        <div className="flex justify-around w-full bg-gray-700">
-          <div className="flex justify-start">
-            <Link to="" onClick={scrollToTop}>
+        <div className="flex justify-around w-full bg-gray-700 flex-wrap py-12">
+          <div className="flex flex-col justify-center text-white text-xs w-24">
+            <p>P.IVA 01266500568</p>
+            <p>LARGO IGINO GARBINI 7</p>
+            <p>VITERBO 01100</p>
+            <p>INFO@STUDIOSERNIMONICA.IT</p>
+          </div>
+          <div className="flex justify-center items-center">
+            <Link to="/" onClick={scrollToTop}>
               <img
-                className="min-h-36 min-w-36 max-h-36 max-w-36"
+                className="min-h-24 min-w-24 max-h-24 max-w-24"
                 src={logo}
                 alt="logo-studio-serni-monica"
               />
             </Link>
           </div>
-          <div className="flex">
-            <ul className="text-center text-white">
+          <div className="flex items-center font-light w-24">
+            <ul className="text-end">
               <Link to="" onClick={scrollToTop}>
-                <li>HOME</li>
+                <li>
+                  <span className="text-white text-sm">HOME</span>
+                </li>
               </Link>
-              <Link to="/contatti" onClick={scrollToTop}>
-                <li>CONTATTI</li>
-              </Link>
-              <Link to="/servizi" onClick={scrollToTop}>
-                <li>SERVIZI</li>
-              </Link>
-              <Link to="/faq" onClick={scrollToTop}>
-                <li>FAQ</li>
-              </Link>
-              <Link to="/privacy" onClick={scrollToTop}>
-                <li>PRIVACY</li>
-              </Link>
+              <li>
+                <Link to="/contatti" onClick={scrollToTop}>
+                  <span className="text-white text-sm">CONTATTI</span>
+                </Link>
+              </li>
+              <li>
+                <Link to="/servizi" onClick={scrollToTop}>
+                  <span className="text-white text-sm">SERVIZI</span>
+                </Link>
+              </li>
+              <li>
+                <Link to="/faq" onClick={scrollToTop}>
+                  <span className="text-white text-sm">FAQ</span>
+                </Link>
+              </li>
+              <li>
+                <Link to="/privacy" onClick={scrollToTop}>
+                  <span className="text-white text-sm">PRIVACY</span>
+                </Link>
+              </li>
             </ul>
           </div>
         </div>
