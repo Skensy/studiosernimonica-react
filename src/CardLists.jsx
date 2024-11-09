@@ -14,7 +14,7 @@ function Cards() {
 
   return (
     <>
-      <div className="bg-gray-500/20 flex flex-col py-28">
+      <div className="bg-gray-500/20 flex flex-col py-28 bg-white">
         <div className="flex justify-center">
           <h2 className="font-semibold text-4xl text-gray-700">
             SCOPRI I MIEI SERVIZI
