@@ -1,4 +1,4 @@
-import { Routes, Route, HashRouter, BrowserRouter } from "react-router-dom";
+import { Routes, Route, BrowserRouter } from "react-router-dom";
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import { NextUIProvider } from "@nextui-org/react";
@@ -17,6 +17,7 @@ import Faq from "./Faq.jsx";
 import Servizi from "./Servizi.jsx";
 import sliderMain from "./assets/slider-foto.avif";
 import Scelta from "./Scelta.jsx";
+import Footer from "./Footer.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
@@ -37,14 +38,15 @@ createRoot(document.getElementById("root")).render(
                 <Midcontent />
                 <Cards />
                 <Scelta
-                bgDiv="bg-white"
+                bgDiv=""
                 firstDiv="flex-row text-center"
-                secondDiv="flex flex-row justify-center gap-16 flex-wrap"
-                thirdDiv="flex flex-col items-center text-sm w-56 mb-0"
+                secondDiv="flex flex-row justify-center gap-8 flex-wrap"
+                thirdDiv="flex flex-col items-center text-sm w-64 mb-0"
                 svgDiv=""
-                hpDiv="pr-6 pt-2 text-sm"
+                hpDiv="pr-6 pt-4 gap-2 text-sm w-full"
                 />
                 <Mappa />
+                <Footer />
               </>
             }
           />
