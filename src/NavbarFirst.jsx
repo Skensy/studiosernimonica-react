@@ -2,11 +2,6 @@ import { useState } from "react";
 import "./index.css";
 import logo from "./assets/logo-studio-serni-monica.png";
 import React from "react";
-<<<<<<< HEAD
-=======
-import { NextUIProvider } from "@nextui-org/react";
-import { motion } from "framer-motion";
->>>>>>> d3659eae0061206488bc8221e2a45c23e460c32b
 import { Link } from "react-router-dom";
 import {
   Navbar,
@@ -36,7 +31,6 @@ function NavbarFirst() {
     >
       <NavbarContent>
         <NavbarBrand>
-<<<<<<< HEAD
         <Link to=""><img
               className="min-h-36 min-w-36 max-h-36 max-w-36"
               src={logo}
@@ -44,18 +38,6 @@ function NavbarFirst() {
             /></Link>
           <Link to="">
             <p className="font-bold text-white">STUDIO SERNI MONICA</p>
-=======
-          <Link to="/" onClick={scrollToTop}>
-            <motion.img
-            whileHover={{ scale: 1.05 }}
-              className="min-h-36 min-w-36 max-h-36 max-w-36"
-              src={logo}
-              alt="logo-studio-serni-monica"
-            />
-          </Link>
-          <Link to="/" onClick={scrollToTop}>
-            <p className="font-bold text-white hidden sm:block">STUDIO SERNI MONICA</p>
->>>>>>> d3659eae0061206488bc8221e2a45c23e460c32b
           </Link>
         </NavbarBrand>
       </NavbarContent>
