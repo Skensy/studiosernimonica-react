@@ -25,7 +25,7 @@ function CorpoGestione() {
           nell’ottimizzazione delle dinamiche lavorative.
         </h2>
         <div className={riga}></div>
-        <h2 class="uppercase text-4xl mb-12">
+        <h2 className="uppercase text-4xl mb-12">
           <strong> Servizi Offerti</strong>
         </h2>
         <ul className="list-disc px-6 py-6">

@@ -10,11 +10,13 @@ import Cards from "./CardLists.jsx";
 import Mappa from "./Mappa.jsx";
 import Consulenza from "./Consulenza.jsx";
 import Gestione from "./Gestione.jsx";
-import Paghe from "./Paghe.jsx"
-import Assistenza from "./Assistenza.jsx"
-import Contatti from "./Contatti.jsx"
-import Faq from "./Faq.jsx"
-import Servizi from "./Servizi.jsx"
+import Paghe from "./Paghe.jsx";
+import Assistenza from "./Assistenza.jsx";
+import Contatti from "./Contatti.jsx";
+import Faq from "./Faq.jsx";
+import Servizi from "./Servizi.jsx";
+import sliderMain from "./assets/slider-foto.avif";
+import Scelta from "./Scelta.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
@@ -30,10 +32,18 @@ createRoot(document.getElementById("root")).render(
                   title="STUDIO SERNI MONICA"
                   subtitle="consulente del lavoro"
                   gradient=""
-                  imgUrl="./src/assets/slider-foto.avif"
+                  imgUrl={sliderMain}
                 />
                 <Midcontent />
                 <Cards />
+                <Scelta
+                bgDiv="bg-white"
+                firstDiv="flex-row text-center"
+                secondDiv="flex flex-row justify-center gap-16 flex-wrap"
+                thirdDiv="flex flex-col items-center text-sm w-56 mb-0"
+                svgDiv=""
+                hpDiv="pr-6 pt-2 text-sm"
+                />
                 <Mappa />
               </>
             }
@@ -42,30 +52,15 @@ createRoot(document.getElementById("root")).render(
             path="/consulenza-contrattuale-e-del-lavoro"
             element={<Consulenza />}
           />
-          <Route
-            path="/gestione-delle-risorse-umane"
-            element={<Gestione />}
-          />
-          <Route
-            path="/gestione-paghe-e-contributi-2"
-            element={<Paghe />}
-          />
+          <Route path="/gestione-delle-risorse-umane" element={<Gestione />} />
+          <Route path="/gestione-paghe-e-contributi-2" element={<Paghe />} />
           <Route
             path="/assistenza-fiscale-in-ambito-lavorativo-1"
             element={<Assistenza />}
           />
-          <Route
-            path="/contatti"
-            element={<Contatti />}
-          />
-          <Route
-            path="/faq"
-            element={<Faq />}
-          />
-          <Route
-            path="/servizi"
-            element={<Servizi />}
-          />
+          <Route path="/contatti" element={<Contatti />} />
+          <Route path="/faq" element={<Faq />} />
+          <Route path="/servizi" element={<Servizi />} />
         </Routes>
       </HashRouter>
     </NextUIProvider>
