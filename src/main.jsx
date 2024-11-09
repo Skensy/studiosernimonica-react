@@ -1,4 +1,4 @@
-import { Routes, Route, HashRouter } from "react-router-dom";
+import { Routes, Route, HashRouter, BrowserRouter } from "react-router-dom";
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import { NextUIProvider } from "@nextui-org/react";
@@ -21,7 +21,7 @@ import Scelta from "./Scelta.jsx";
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <NextUIProvider>
-      <HashRouter>
+      <BrowserRouter>
         <Routes>
           <Route
             path="/"
@@ -62,7 +62,7 @@ createRoot(document.getElementById("root")).render(
           <Route path="/faq" element={<Faq />} />
           <Route path="/servizi" element={<Servizi />} />
         </Routes>
-      </HashRouter>
+      </BrowserRouter>
     </NextUIProvider>
   </StrictMode>
 );
