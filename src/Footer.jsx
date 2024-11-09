@@ -17,10 +17,10 @@ function Footer() {
             <p>VITERBO 01100</p>
             <p>INFO@STUDIOSERNIMONICA.IT</p>
           </div>
-          <div className="flex justify-center items-center">
+          <div className="flex justify-center items-center hidden md:block">
             <Link to="/" onClick={scrollToTop}>
               <img
-                className="min-h-24 min-w-24 max-h-24 max-w-24"
+                className="min-h-24 min-w-24 max-h-36 max-w-36"
                 src={logo}
                 alt="logo-studio-serni-monica"
               />
