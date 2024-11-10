@@ -31,14 +31,14 @@ function NavbarFirst() {
     >
       <NavbarContent>
         <NavbarBrand>
-          <Link to="/">
+          <Link to="/" onClick={scrollToTop}>
             <img
               className="min-h-36 min-w-36 max-h-36 max-w-36"
               src={logo}
               alt="logo-studio-serni-monica"
             />
           </Link>
-          <Link to="/">
+          <Link to="/" onClick={scrollToTop}>
             <p className="font-bold text-white hidden">STUDIO SERNI MONICA</p>
           </Link>
         </NavbarBrand>
@@ -55,7 +55,7 @@ function NavbarFirst() {
           {menuItems.map((item, index) => (
             <NavbarMenuItem className="" key={`${item}-${index}`}>
               <div className="bg-gray-700 text-white w-96 text-center justify-center uppercase text-xl p-4 rounded-xl mt-4">
-                <Link to={`/${linkItems[index]}`} size="lg">
+                <Link to={`/${linkItems[index]}`} size="lg" onClick={scrollToTop}>
                   {item}
                 </Link>
               </div>
