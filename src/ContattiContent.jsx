@@ -7,7 +7,7 @@ function ContattiContent() {
         <div>
           <h2 className="text-center font-bold text-2xl pb-2">Recapiti</h2>
           <p className="text-center"><a href="tel:+393332325012">+393332325012</a></p>
-          <p className="text-center"><a href="mailto:">info@studiosernimonica.it</a></p>
+          <p className="text-center"><a href="mailto:info@studiosernimonica.it">info@studiosernimonica.it</a></p>
         </div>
         <div>
           <h2 className="text-center font-bold text-2xl pb-2">Indirizzo</h2>

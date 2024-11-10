@@ -61,7 +61,7 @@ createRoot(document.getElementById("root")).render(
             element={<Assistenza />}
           />
           <Route path="/contatti" element={<Contatti />} />
-          <Route path="/faq" element={<Faq />} />
+          <Route path="/FAQ" element={<Faq />} />
           <Route path="/servizi" element={<Servizi />} />
         </Routes>
       </BrowserRouter>
