@@ -12,6 +12,8 @@ import Gestione from "./assets/gestione-delle-risorse-umane.avif";
 import Cards from "./CardLists.jsx";
 import Contatti from "./assets/contatti.jpg";
 import Footer from "./Footer.jsx";
+import ContattiContent from "./ContattiContent.jsx"
+import Mappa from "./Mappa.jsx"
 
 function contattiPage() {
   return (
@@ -22,6 +24,8 @@ function contattiPage() {
         subtitle="consulente del lavoro"
         imgUrl={Contatti}
       />
+      <ContattiContent />
+      <Mappa />
       <Footer />
     </>
   );

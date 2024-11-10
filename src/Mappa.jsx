@@ -29,7 +29,7 @@ function Mappa() {
         <h2 className="font-semibold text-4xl text-center mb-2 text-gray-700">
           PASSA A TROVARCI A VITERBO PER UNA CONSULENZA
         </h2>
-        <p className="font-light">
+        <p className="font-light text-center">
           Il nostro studio situato a Viterbo, in Largo Igino Garbini 7, ti
           aspetta per qualsiasi chiarimento e/o consulenza.
         </p>
