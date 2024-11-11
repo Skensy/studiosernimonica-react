@@ -1,4 +1,3 @@
-import sliderFoto from "./assets/slider-foto.avif";
 import { motion } from "framer-motion";
 import "./index.css"
 
@@ -15,10 +14,10 @@ function Slider(props) {
       <div className="flex flex-col w-full relative shadow-xl">
         <div className="flex flex-col justify-center items-center">
           <div
-            className={`h-dvh flex w-full items-center ${gradient} justify-center z-0 bg-cover bg-center bg-fixed)`}
-            style={{ backgroundImage: `url('${imgUrl}')` }}
+            style={{ backgroundImage: `url('${imgUrl}')`} }
+            className={`z-0 h-dvh flex w-full items-center ${gradient} justify-center bg-cover bg-center bg-fixed)`}
           />
-          <div className="h-dvh flex w-full z-10 bg-black/60 absolute" />
+          <div className="h-dvh flex w-full z-10 bg-black/70 absolute" />
           <div className="flex flex-col z-20 absolute">
             <motion.div
               whileHover={{ scale: 1.2 }}

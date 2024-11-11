@@ -17,7 +17,7 @@ function Card(props) {
           className={`flex flex-col justify-center ${props.Gradient} w-72 h-96 rounded-xl bg-cover bg-center z-0 relative `}
           style={{ backgroundImage: `url('${cardImgUrl}')` }}
         >
-          <div className="flex flex-col w-full h-full bg-black/50 absolute z-10 rounded-xl" />
+          <div className="flex flex-col w-full h-full bg-black/70 absolute z-10 rounded-xl" />
           <h2 className="px-2 text-2xl text-white font-normal hover:font-normal text-center z-20">
             {props.Title}
           </h2>
