@@ -17,7 +17,7 @@ function CorpoGestione() {
 
   return (
     <>
-      <div className="sm:px-8 md:px-24 lg:px-24 xl:px-48 2xl:px-56 px-6 py-28 text-left">
+      <div className="sm:px-8 md:px-24 lg:px-24 xl:px-48 2xl:px-56 px-6 py-28 text-left text-black">
         <h2 className="text-xl mb-6">
           Lo Studio Serni Monica, leader a Viterbo nella consulenza del lavoro,
           offre servizi specializzati nella gestione delle risorse umane, mirati

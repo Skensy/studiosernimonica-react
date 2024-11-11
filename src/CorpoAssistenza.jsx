@@ -17,7 +17,7 @@ function CorpoAssistenza() {
 
   return (
     <>
-      <div className="sm:px-8 md:px-24 lg:px-24 xl:px-48 2xl:px-56 px-6 py-28 text-left">
+      <div className="sm:px-8 md:px-24 lg:px-24 xl:px-48 2xl:px-56 px-6 py-28 text-left text-black">
         <h2 className="text-xl mb-6">
           La nostra missione è di offrire assistenza completa e personalizzata
           per ogni esigenza fiscale legata al lavoro dipendente e autonomo,

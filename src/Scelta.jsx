@@ -1,5 +1,4 @@
-import "./index.css"
-
+import "./index.css";
 
 function Scelta(props) {
   const bgDiv = props.bgDiv;
@@ -13,7 +12,7 @@ function Scelta(props) {
     <div
       className={`-mt-36 sm:px-8 md:px-24 lg:px-24 xl:px-48 2xl:px-56 px-6 py-12 text-left ${bgDiv} ${firstDiv}`}
     >
-      <h2 className="uppercase text-3xl font-bold mb-12 mt-12">
+      <h2 className="uppercase text-3xl font-bold mb-12 mt-12 text-black">
         Perch&eacute; Scegliere Studio Serni Monica?
       </h2>
       <div className={`${secondDiv}`}>
@@ -24,6 +23,7 @@ function Scelta(props) {
               viewBox="0 0 24 24"
               fill="currentColor"
               className="size-16"
+              color="black"
             >
               <path
                 fillRule="evenodd"
@@ -34,7 +34,7 @@ function Scelta(props) {
             </svg>
           </div>
           <div className={`flex flex-col justify-center pl-6 ${hpDiv}`}>
-            <h3 className="uppercase text-xl">
+            <h3 className="uppercase text-xl text-black">
               <strong>Professionalit&agrave; ed Esperienza</strong>
             </h3>
             <p className="text-gray-700">
@@ -50,6 +50,7 @@ function Scelta(props) {
               viewBox="0 0 24 24"
               fill="currentColor"
               className="size-16"
+              color="black"
             >
               <path
                 fillRule="evenodd"
@@ -59,7 +60,7 @@ function Scelta(props) {
             </svg>
           </div>
           <div className={`flex flex-col justify-center pl-6 ${hpDiv}`}>
-            <h3 className="uppercase text-xl">
+            <h3 className="uppercase text-xl text-black">
               <strong>Personalizzazione del Servizio</strong>
             </h3>
             <p className="text-gray-700">
@@ -74,6 +75,7 @@ function Scelta(props) {
               viewBox="0 0 24 24"
               fill="currentColor"
               className="size-16"
+              color="black"
             >
               <path
                 fillRule="evenodd"
@@ -83,7 +85,7 @@ function Scelta(props) {
             </svg>
           </div>
           <div className={`flex flex-col justify-center pl-6 ${hpDiv}`}>
-            <h3 className="uppercase text-xl">
+            <h3 className="uppercase text-xl text-black">
               <strong>Aggiornamento Continuo</strong>
             </h3>
             <p className="text-gray-700">
@@ -99,6 +101,7 @@ function Scelta(props) {
               viewBox="0 0 24 24"
               fill="currentColor"
               className="size-16"
+              color="black"
             >
               <path d="M17.004 10.407c.138.435-.216.842-.672.842h-3.465a.75.75 0 0 1-.65-.375l-1.732-3c-.229-.396-.053-.907.393-1.004a5.252 5.252 0 0 1 6.126 3.537ZM8.12 8.464c.307-.338.838-.235 1.066.16l1.732 3a.75.75 0 0 1 0 .75l-1.732 3c-.229.397-.76.5-1.067.161A5.23 5.23 0 0 1 6.75 12a5.23 5.23 0 0 1 1.37-3.536ZM10.878 17.13c-.447-.098-.623-.608-.394-1.004l1.733-3.002a.75.75 0 0 1 .65-.375h3.465c.457 0 .81.407.672.842a5.252 5.252 0 0 1-6.126 3.539Z" />
               <path
@@ -109,7 +112,7 @@ function Scelta(props) {
             </svg>
           </div>
           <div className={`flex flex-col justify-center pl-6 ${hpDiv}`}>
-            <h3 className="uppercase text-xl">
+            <h3 className="uppercase text-xl text-black">
               <strong>Tecnologia Avanzata</strong>
             </h3>
             <p className="text-gray-700">

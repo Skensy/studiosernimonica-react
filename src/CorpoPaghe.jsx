@@ -17,7 +17,7 @@ function CorpoPaghe() {
 
   return (
     <>
-      <div className="sm:px-8 md:px-24 lg:px-24 xl:px-48 2xl:px-56 px-6 py-28 text-left">
+      <div className="sm:px-8 md:px-24 lg:px-24 xl:px-48 2xl:px-56 px-6 py-28 text-left text-black">
         <h2 className="text-xl mb-6">
           Studio Serni Monica è il tuo partner di fiducia per la gestione
           completa delle buste paga e dei contributi previdenziali. Offriamo un

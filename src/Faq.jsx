@@ -13,10 +13,12 @@ import "./index.css"
 function faqPage() {
   return (
     <>
+    <main className="light">
     <NavbarFirst />
     <Slider title="FAQ" subtitle="consulente del lavoro" imgUrl={Faq} />
     <FaqAccordion />
     <Footer />
+    </main>
     </>
   )
 }
