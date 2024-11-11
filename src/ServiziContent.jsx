@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import "./index.css"
 
 function ServiziContent() {
   return (

@@ -1,3 +1,6 @@
+import "./index.css"
+
+
 function Scelta(props) {
   const bgDiv = props.bgDiv;
   const firstDiv = props.firstDiv;

@@ -6,6 +6,8 @@ import Slider from "./Slider.jsx";
 import FaqAccordion from "./FaqAccordion.jsx"
 import Faq from "./assets/faq.jpg"
 import Footer from "./Footer.jsx";
+import "./index.css"
+
 
 
 function faqPage() {

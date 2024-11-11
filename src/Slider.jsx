@@ -1,5 +1,7 @@
 import sliderFoto from "./assets/slider-foto.avif";
 import { motion } from "framer-motion";
+import "./index.css"
+
 
 function Slider(props) {
   const title = props.title;
