@@ -13,6 +13,8 @@ import Cards from "./CardLists.jsx";
 import CorpoGestione from "./CorpoGestione.jsx";
 import Scelta from "./Scelta.jsx";
 import Footer from "./Footer.jsx";
+import { useLocation } from "react-router-dom";
+import { useState } from "react";
 
 
 function GestionePage() {
@@ -20,7 +22,7 @@ function GestionePage() {
   return (
     <>
     <NavbarFirst />
-    <Slider title="GESTIONE DELLE RISORSE UMANE" subtitle="consulente del lavoro" imgUrl = {Gestione} />
+    <Slider title="GESTIONE DELLE RISORSE UMANE" subtitle={location} imgUrl = {Gestione} />
     <CorpoGestione />
     <Scelta />
     <Footer />

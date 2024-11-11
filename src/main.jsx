@@ -19,6 +19,7 @@ import sliderMain from "./assets/slider-foto.avif";
 import Scelta from "./Scelta.jsx";
 import Footer from "./Footer.jsx";
 
+
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <NextUIProvider>

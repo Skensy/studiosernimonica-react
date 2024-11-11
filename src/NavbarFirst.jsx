@@ -2,6 +2,7 @@ import { useState } from "react";
 import "./index.css";
 import logo from "./assets/logo-studio-serni-monica.png";
 import React from "react";
+import { useLocation } from 'react-router-dom';
 import { Link } from "react-router-dom";
 import {
   Navbar,
@@ -14,11 +15,14 @@ import {
   Button,
 } from "@nextui-org/react";
 
+
 function NavbarFirst() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
 
+
   const menuItems = ["Home", "Contatti", "Servizi", "FAQ"];
-  const linkItems = ["", "contatti", "servizi", "faq"];
+  const linkItems = ["", "contatti", "servizi", "FAQ"];
+
 
   const scrollToTop = () => {
     window.scrollTo({ top: 0, left: 0, behavior: "smooth" });

@@ -1,7 +1,10 @@
 import { motion } from "framer-motion"
 import "./index.css"
+import { useState } from "react";
 
 function Midcontent() {
+
+
   return (
     <div className="my-36 px-12 py-12 xl:px-56 lg:px-52 md:px-12 sm:px-12">
       <motion.p
