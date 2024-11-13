@@ -21,7 +21,6 @@ function paghePage() {
     <Slider title="GESTIONE PAGHE E CONTRIBUTI" subtitle="consulente del lavoro" imgUrl={Paghe} />
     <CorpoPaghe />
     <Scelta />
-    <Posts />
     <Footer />
     </>
   )
