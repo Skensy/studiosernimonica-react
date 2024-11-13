@@ -7,6 +7,7 @@ import Paghe from "./assets/paghe-e-contributi.jpg";
 import Scelta from "./Scelta.jsx";
 import CorpoPaghe from "./CorpoPaghe.jsx";
 import Footer from "./Footer.jsx";
+import Posts from "./createClient.jsx";
 
 
 function paghePage() {
@@ -16,6 +17,7 @@ function paghePage() {
     <Slider title="GESTIONE PAGHE E CONTRIBUTI" subtitle="consulente del lavoro" imgUrl={Paghe} />
     <CorpoPaghe />
     <Scelta />
+    <Posts />
     <Footer />
     </>
   )
