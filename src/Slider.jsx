@@ -31,7 +31,7 @@ function Slider(props) {
             style={{ backgroundImage: `url('${imgUrl}')`} }
             className={`z-0 h-screen flex w-full items-center ${gradient} justify-center bg-cover bg-center bg-fixed)`}
           />
-          <div className="h-screen flex w-full z-10 bg-black/70 absolute" />
+          <div className="h-screen flex w-full z-10 bg-black/60 absolute" />
           <div className="flex flex-col z-20 absolute">
             <motion.div
               whileHover={{ scale: 1.2 }}
