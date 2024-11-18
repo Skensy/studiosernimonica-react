@@ -1,7 +1,4 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
-import "./Navbar.css";
 import logo from "./assets/logo-studio-serni-monica.png";
 import { Menu, MenuButton, MenuItem, MenuItems } from "@headlessui/react";
 import {  Navbar,   NavbarBrand,   NavbarContent,   NavbarItem,   NavbarMenuToggle,  NavbarMenu,  NavbarMenuItem} from "@nextui-org/navbar";

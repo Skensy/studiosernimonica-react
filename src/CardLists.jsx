@@ -5,7 +5,6 @@ import Assistenza from "./assets/assistenza-fiscale-serni-monica.avif";
 import Consulenza from "./assets/consulenza-contrattuale-e-del-lavoro.avif";
 import Gestione from "./assets/gestione-delle-risorse-umane.avif";
 import { Link } from "react-router-dom";
-import { useRef } from "react";
 
 function Cards() {
   const scrollToTop = () => {

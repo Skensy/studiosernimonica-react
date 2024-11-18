@@ -1,6 +1,5 @@
 import { motion } from "framer-motion"
 import "./index.css"
-import { useState } from "react";
 
 function Midcontent() {
 

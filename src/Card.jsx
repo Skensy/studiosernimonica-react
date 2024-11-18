@@ -1,5 +1,3 @@
-import { Link } from "react-router-dom";
-import imgCard from "./assets/paghe-e-contributi.jpg";
 import { motion } from "framer-motion";
 
 function Card(props) {

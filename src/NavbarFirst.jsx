@@ -2,7 +2,6 @@ import { useState } from "react";
 import "./index.css";
 import logo from "./assets/logo-studio-serni-monica.png";
 import React from "react";
-import { useLocation } from 'react-router-dom';
 import { Link } from "react-router-dom";
 import {
   Navbar,
