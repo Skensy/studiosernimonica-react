@@ -11,19 +11,35 @@ import Consulenza from "./assets/consulenza-contrattuale-e-del-lavoro.avif";
 import Gestione from "./assets/gestione-delle-risorse-umane.avif";
 import Cards from "./CardLists.jsx";
 import CorpoAssistenza from "./CorpoAssistenza.jsx";
-import Scelta from "./Scelta.jsx"
+import Scelta from "./Scelta.jsx";
 import Footer from "./Footer.jsx";
+import { Helmet } from "react-helmet";
 
 function assistenzaPage() {
   return (
     <>
-    <NavbarFirst />
-    <Slider title="ASSISTENZA FISCALE IN AMBITO LAVORATIVO" subtitle="consulente del lavoro" imgUrl = {Assistenza}  />
-    <CorpoAssistenza />
-    <Scelta />
-    <Footer />
+      <Helmet>
+        <title>Assistenza Fiscale  - Consulente del Lavoro Serni</title>
+        <meta
+          name="description"
+          content="Affidati a Studio Serni Monica per assistenza fiscale nel lavoro dipendente: gestione avvisi bonari, controversie e cartelle di pagamento."
+        />
+        <meta
+          property="Assistenza Fiscale  - Consulente del Lavoro Serni"
+          content="Affidati a Studio Serni Monica per assistenza fiscale nel lavoro dipendente: gestione avvisi bonari, controversie e cartelle di pagamento."
+        />
+      </Helmet>
+      <NavbarFirst />
+      <Slider
+        title="ASSISTENZA FISCALE IN AMBITO LAVORATIVO"
+        subtitle="consulente del lavoro"
+        imgUrl={Assistenza}
+      />
+      <CorpoAssistenza />
+      <Scelta />
+      <Footer />
     </>
-  )
+  );
 }
 
 export default assistenzaPage;

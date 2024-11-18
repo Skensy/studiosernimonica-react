@@ -18,7 +18,7 @@ import Servizi from "./Servizi.jsx";
 import sliderMain from "./assets/slider-foto.avif";
 import Scelta from "./Scelta.jsx";
 import Footer from "./Footer.jsx";
-
+import { Helmet } from "react-helmet";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
@@ -29,6 +29,19 @@ createRoot(document.getElementById("root")).render(
             path="/"
             element={
               <>
+                <Helmet>
+                  <title>
+                    Consulente del Lavoro, Viterbo | Serni Monica
+                  </title>
+                  <meta
+                    name="description"
+                    content="Consulente del lavoro Serni Monica: consulenza del lavoro a Viterbo per la gestione di paghe e contributi, per assistenza fiscale e molto altro."
+                  />
+                  <meta
+                    property="Consulente del Lavoro, Viterbo | Serni Monica"
+                    content="Consulente del lavoro Serni Monica: consulenza del lavoro a Viterbo per la gestione di paghe e contributi, per assistenza fiscale e molto altro."
+                  />
+                </Helmet>
                 <NavbarFirst />
                 <Slider
                   title="STUDIO SERNI MONICA"
@@ -38,12 +51,12 @@ createRoot(document.getElementById("root")).render(
                 />
                 <Midcontent />
                 <Scelta
-                bgDiv=""
-                firstDiv="flex-row text-center"
-                secondDiv="flex flex-row justify-center gap-8 flex-wrap"
-                thirdDiv="flex flex-col items-center text-sm w-64 mb-0"
-                svgDiv=""
-                hpDiv="pr-6 pt-4 gap-2 text-sm w-full"
+                  bgDiv=""
+                  firstDiv="flex-row text-center"
+                  secondDiv="flex flex-row justify-center gap-8 flex-wrap"
+                  thirdDiv="flex flex-col items-center text-sm w-64 mb-0"
+                  svgDiv=""
+                  hpDiv="pr-6 pt-4 gap-2 text-sm w-full"
                 />
                 <Cards />
                 <Mappa />
